@@ -1,7 +1,8 @@
-import { FaBars } from 'react-icons/fa6';
-import { BiSolidUser,BiSolidMessageDetail, } from 'react-icons/bi';
-import { BsFillSuitHeartFill } from 'react-icons/bs';
-import { FaShoppingCart } from 'react-icons/fa';
+import { FaBars,FaEarthAmericas } from 'react-icons/fa6';
+import { BiSolidUser,BiSolidMessageDetail,BiSolidBox } from 'react-icons/bi';
+import { BsFillSuitHeartFill,BsHeadset,BsFillBuildingFill } from 'react-icons/bs';
+import { AiOutlineHome,AiOutlineBars,AiOutlineHeart } from 'react-icons/ai';
+import { FaShoppingCart,FaUserCircle } from 'react-icons/fa';
 import logo from '../../assets/Group 2.svg'
 import { Link } from 'react-router-dom';
 const Nav = () => {
@@ -19,10 +20,23 @@ const Nav = () => {
   </div> 
   <div className="drawer-side">
     <label htmlFor="my-drawer" aria-label="close sidebar" className="drawer-overlay"></label>
-    <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
+    <ul className="menu w-80 min-h-full bg-base-200 font-semibold text-black pb-14">
       {/* Sidebar content here */}
-      <li><a>Sidebar Item 1</a></li>
-      <li><a>Sidebar Item 2</a></li>
+      <div className='bg-gray-200 p-4'>
+        <FaUserCircle className='text-5xl text-gray-300 my-3'></FaUserCircle>
+        <Link>Sign in</Link> | <Link>Register</Link>
+      </div>
+      <li className='p-2'><Link><AiOutlineHome className='text-gray-500 text-xl'></AiOutlineHome>Home</Link></li>
+      <li className='p-2'><Link><AiOutlineBars className='text-gray-500 text-xl'></AiOutlineBars>Categories</Link></li>
+      <li className='p-2'><Link><AiOutlineHeart className='text-gray-500 text-xl'></AiOutlineHeart>Favorites</Link></li>
+      <li className='border-b p-2'><Link><BiSolidBox className='text-gray-500 text-xl'></BiSolidBox>My orders</Link></li>
+      <li className='p-2'><Link><FaEarthAmericas className='text-gray-500 text-xl'></FaEarthAmericas>English | USD</Link></li>
+      <li className='p-2'><Link><BsHeadset className='text-gray-500 text-xl'></BsHeadset>Contact us</Link></li>
+      <li className='p-2 border-b'><Link><BsFillBuildingFill className='text-gray-500 text-xl'></BsFillBuildingFill>About</Link></li>
+
+      <li className='p-2'><Link>User agreement</Link></li>
+      <li className='p-2'><Link>Partnership</Link></li>
+      <li className='p-2'><Link>Privacy policy</Link></li>
       
     </ul>
   </div>
