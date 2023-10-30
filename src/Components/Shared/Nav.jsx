@@ -18,9 +18,9 @@ const Nav = () => {
     {/* Page content here */}
     <label htmlFor="my-drawer" className="btn btn-primary drawer-button bg-transparent text-black text-2xl border-none"><FaBars></FaBars></label>
   </div> 
-  <div className="drawer-side">
+  <div className="drawer-side z-20">
     <label htmlFor="my-drawer" aria-label="close sidebar" className="drawer-overlay"></label>
-    <ul className="menu w-80 min-h-full bg-base-200 font-semibold text-black pb-14">
+    <ul className="menu w-80 min-h-full bg-base-200 font-semibold text-black pb-14 ">
       {/* Sidebar content here */}
       <div className='bg-gray-200 p-4'>
         <FaUserCircle className='text-5xl text-gray-300 my-3'></FaUserCircle>
@@ -40,6 +40,17 @@ const Nav = () => {
       
     </ul>
   </div>
+</div>
+<div className=' absolute top-20 flex right-10 md:right-48 md:top-[90px] z-10'>
+<input type="text" placeholder="Search" className="rounded-lg px-3 input input-bordered min-w-[360px]" />
+</div>
+<div className='flex gap-2 text-2xl right-6 top-6 absolute'>
+<Link>
+    <BiSolidUser className='mx-auto'></BiSolidUser>
+    </Link>
+    <Link>
+    <FaShoppingCart className='mx-auto'></FaShoppingCart>
+    </Link>
 </div>
     </div>
     <div className="flex items-center gap-1">
