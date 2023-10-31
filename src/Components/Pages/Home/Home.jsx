@@ -1,3 +1,4 @@
+import Banner from "../../Shared/Banner";
 import Nav from "../../Shared/Nav";
 import Tabs from "../../Shared/Tabs";
 
@@ -10,7 +11,7 @@ const Home = () => {
             <Tabs></Tabs>
             </div>
             </div>
-            
+            <Banner></Banner>
             
         </div>
     );
