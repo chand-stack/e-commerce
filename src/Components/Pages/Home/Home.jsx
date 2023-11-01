@@ -1,6 +1,8 @@
 import Banner from "../../Shared/Banner";
 import Nav from "../../Shared/Nav";
+import Offer from "../../Shared/Offer";
 import Tabs from "../../Shared/Tabs";
+
 
 const Home = () => {
     return (
@@ -12,6 +14,9 @@ const Home = () => {
             </div>
             </div>
             <Banner></Banner>
+            <div className="container mx-auto">
+                <Offer></Offer>
+            </div>
             
         </div>
     );

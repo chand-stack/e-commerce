@@ -1,0 +1,33 @@
+[
+    {
+      "img": "https://i.ibb.co/8bXrcKh/image-35.png",
+      "title": "Smart watches",
+      "discount": 25,
+      "id": 1
+    },
+    {
+      "img": "https://i.ibb.co/Z25kt4S/image-34.png",
+      "title": "Laptops",
+      "discount": 15,
+      "id": 2
+    },
+    {
+      "img": "https://i.ibb.co/3YxZC9g/image-28.png",
+      "title": "GoPro cameras",
+      "discount": 40,
+      "id": 3
+    },
+    {
+      "img": "https://i.ibb.co/9Tgxjbc/image-86.png",
+      "title": "Headphones",
+      "discount": 25,
+      "id": 4
+    },
+    {
+      "img": "https://i.ibb.co/q09w9x8/image-23.png",
+      "title": "Canon camreras",
+      "discount": 25,
+      "id": 5
+    }
+  ]
+  
