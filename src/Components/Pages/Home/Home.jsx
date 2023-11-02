@@ -1,5 +1,6 @@
 import Banner from "../../Shared/Banner";
 import Decor from "../../Shared/Decor";
+import Electronic from "../../Shared/Electronic";
 import Nav from "../../Shared/Nav";
 import Offer from "../../Shared/Offer";
 import Tabs from "../../Shared/Tabs";
@@ -18,6 +19,7 @@ const Home = () => {
             <div className="container mx-auto">
                 <Offer></Offer>
                 <Decor></Decor>
+                <Electronic></Electronic>
             </div>
             
         </div>

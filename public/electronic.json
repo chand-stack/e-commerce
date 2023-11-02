@@ -1,0 +1,51 @@
+[
+    {
+      "title": "Electric kattle",
+      "price": 19.99,
+      "img": "https://i.ibb.co/1fz2RQ2/image-85.png",
+      "id": 1
+    },
+    {
+      "title": "Cameras",
+      "price": 29.99,
+      "img": "https://i.ibb.co/3YxZC9g/image-28.png",
+      "id": 2
+    },
+    {
+      "title": "Headphones",
+      "price": 39.99,
+      "img": "https://i.ibb.co/9Tgxjbc/image-86.png",
+      "id": 3
+    },
+    {
+      "title": "Smart watches",
+      "price": 49.99,
+      "img": "https://i.ibb.co/8bXrcKh/image-35.png",
+      "id": 4
+    },
+    {
+      "title": "Gaming set",
+      "price": 59.99,
+      "img": "https://i.ibb.co/q0gLZFT/image-29.png",
+      "id": 5
+    },
+    {
+      "title": "Laptops & PC",
+      "price": 69.99,
+      "img": "https://i.ibb.co/Z25kt4S/image-34.png",
+      "id": 6
+    },
+    {
+      "title": "Smartphones",
+      "price": 79.99,
+      "img": "https://i.ibb.co/4P9PW8Z/image-33.png",
+      "id": 7
+    },
+    {
+      "title": "Tabs",
+      "price": 89.99,
+      "img": "https://i.ibb.co/LgY9vRp/image-32.png",
+      "id": 8
+    }
+  ]
+  
