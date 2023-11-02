@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 const Tabs = () => {
     return (
         <>
-        <div className='hidden lg:flex justify-between py-3'>
+        <div className='hidden lg:flex justify-between py-3 bg-white'>
             <div className='font-medium text-lg flex gap-4'>
                 <Link className='flex gap-2 items-center'><HiBars4></HiBars4>All category
                 </Link>

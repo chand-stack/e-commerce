@@ -6,7 +6,7 @@ import { FaUserCircle } from "react-icons/fa";
 const Banner = () => {
     return (
         <>
-        <div>
+        <div className="bg-white">
 
             <div className="grid lg:grid-cols-4 gap-3 border p-3 mt-28 lg:mt-5 mb-5 ">
                 <div className="hidden lg:flex flex-col">

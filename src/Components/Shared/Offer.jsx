@@ -14,11 +14,10 @@ const Offer = () => {
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);
-  // console.log(products);
 
   return (
     <>
-      <div className="lg:grid lg:grid-cols-3 lg:gap-4 border p-3">
+      <div className="lg:grid lg:grid-cols-3 lg:gap-4 border p-3 bg-white">
         <div className="flex md:flex-col gap-4 lg:mt-5">
           <div>
             <h1 className="text-xl font-semibold">Deals and offers</h1>

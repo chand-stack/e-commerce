@@ -1,0 +1,41 @@
+[
+    {"title": "Soft chairs", 
+    "id": 1, 
+    "price": 19.99, 
+    "img": "https://i.ibb.co/m4Xx3L9/rasm.png"
+  },
+    {"title": "Sofa & chair", 
+    "id": 2, 
+    "price": 29.99, 
+    "img": "https://i.ibb.co/XDkgsZG/image-94.png"
+  },
+    {"title": "Kitchen dishes",
+     "id": 3, 
+     "price": 9.99, 
+     "img": "https://i.ibb.co/N9PLKsv/image-93.png"
+    },
+    {"title": "Smart watches", 
+    "id": 4, 
+    "price": 49.99, 
+    "img": "https://i.ibb.co/LP2kWtV/image-90.png"
+  },
+    {"title": "Kitchen mixer", 
+    "id": 5, 
+    "price": 39.99, 
+    "img": "https://i.ibb.co/93PMdkJ/image-88.png"
+  },
+    {"title": "Blenders", 
+    "id": 6, 
+    "price": 14.99, 
+    "img": "https://i.ibb.co/wQyK4Dc/image-87.png"
+  },
+    {"title": "Home appliance", 
+    "id": 7, 
+    "price": 59.99, 
+    "img": "https://i.ibb.co/YQYLvXm/rasmm.png"},
+    {"title": "Coffee maker", 
+    "id": 8, 
+    "price": 69.99, 
+    "img": "https://i.ibb.co/DQjFBVV/image-89.png"
+  }
+  ]
