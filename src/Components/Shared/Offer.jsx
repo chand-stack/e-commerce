@@ -77,12 +77,12 @@ const Offer = () => {
       <div className="items-center w-full gap-4 carousel md:flex lg:hidden md:w-auto border mt-5 py-3">
         {products.map((product) => (
           <div
-            className="carousel-item flex flex-col text-center w-1/2 space-y-2"
+            className="carousel-item flex flex-col text-center w-1/2 space-y-2 py-2 border mx-2"
             key={product.id}
           >
-            <img className=" w-40 h-36 mx-auto" src={product.img} alt="" />
+            <img className=" w-28 h-24 p-2 mx-auto" src={product.img} alt="" />
             <p>{product.title}</p>
-            <p className="text-[#EB001B] bg-[#FFE3E3] rounded-full p-1">
+            <p className="text-[#EB001B] bg-[#FFE3E3] rounded-full p- w-20 mx-auto">
               -{product.discount}%
             </p>
           </div>
