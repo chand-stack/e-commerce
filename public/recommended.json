@@ -1,0 +1,62 @@
+[
+    {
+        "img": "https://i.ibb.co/6tRkWwr/Bitmap.png",
+        "title": "T-shirts with multiple colors, for men",
+        "price": 19.99,
+        "id": 1
+    },
+    {
+        "img": "https://i.ibb.co/TTxmK9Z/2-1.png",
+        "title": "Brown winter coat medium size",
+        "price": 24.99,
+        "id": 2
+    },
+    {
+        "img": "https://i.ibb.co/bQKgkzS/image-25.png",
+        "title": "T-shirts with multiple colors, for men",
+        "price": 15.49,
+        "id": 3
+    },
+    {
+        "img": "https://i.ibb.co/9HPQ8hD/Bitmapp.png",
+        "title": "Jeans shorts for men blue color",
+        "price": 29.99,
+        "id": 4
+    },
+    {
+        "img": "https://i.ibb.co/hRQyGFx/image-26.png",
+        "title": "Jeans bag for travel for men",
+        "price": 10.99,
+        "id": 5
+    },
+    {
+        "img": "https://i.ibb.co/QJcZyT7/image-30.png",
+        "title": "Blue coat medium size",
+        "price": 39.99,
+        "id": 6
+    },
+    {
+        "img": "https://i.ibb.co/q0gLZFT/image-29.png",
+        "title": "Headset for gaming with mic",
+        "price": 14.95,
+        "id": 7
+    },
+    {
+        "img": "https://i.ibb.co/QpT3v00/image-24.png",
+        "title": "Leather wallet",
+        "price": 27.50,
+        "id": 8
+    },
+    {
+        "img": "https://i.ibb.co/LP2kWtV/image-90.png",
+        "title": "Blue wallet for men leather metarfial",
+        "price": 22.99,
+        "id": 9
+    },
+    {
+        "img": "https://i.ibb.co/1fz2RQ2/image-85.png",
+        "title": "Jeans bag for travel for men",
+        "price": 19.99,
+        "id": 10
+    }
+]

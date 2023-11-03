@@ -2,6 +2,7 @@ import Banner from "../../Shared/Banner";
 import Decor from "../../Shared/Decor";
 import Electronic from "../../Shared/Electronic";
 import Offer from "../../Shared/Offer";
+import Recommanded from "../../Shared/Recommanded";
 import Service from "../../Shared/Service";
 import Tabs from "../../Shared/Tabs";
 
@@ -20,6 +21,7 @@ const Home = () => {
                 <Decor></Decor>
                 <Electronic></Electronic>
                 <Service></Service>
+                <Recommanded></Recommanded>
             </div>
             
         </div>
