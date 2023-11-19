@@ -1,5 +1,6 @@
 import logo from '../../assets/Group 2.svg'
 import img from '../../assets/Group.svg'
+import img2 from '../../assets/Group.png'
 import { FaFacebook,FaLinkedin,FaInstagramSquare,FaYoutubeSquare } from 'react-icons/fa';
 import { AiFillTwitterCircle } from 'react-icons/ai';
 const Footer = () => {
@@ -51,7 +52,7 @@ const Footer = () => {
   <nav>
     <header className="font-medium text-black">Get App</header> 
     <img src={img} alt="" />
-    <img src={img} alt="" />
+    <img className='w-[124px]' src={img2} alt="" />
   </nav>
 </footer>
         </div>

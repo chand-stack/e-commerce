@@ -6,6 +6,7 @@ import Newsletter from "../../Shared/Newsletter";
 import Offer from "../../Shared/Offer";
 import Recommanded from "../../Shared/Recommanded";
 import Service from "../../Shared/Service";
+import Supplier from "../../Shared/Supplier";
 import Tabs from "../../Shared/Tabs";
 
 
@@ -24,11 +25,12 @@ const Home = () => {
                 <Electronic></Electronic>
                 <Service></Service>
                 <Recommanded></Recommanded>
-                <div className="hidden md:contents">
+                <div className="">
                     <ExtraService></ExtraService>
+                    <Supplier></Supplier>
                 </div>
-                <Newsletter></Newsletter>
             </div>
+            <Newsletter></Newsletter>
             
         </div>
     );
