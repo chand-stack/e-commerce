@@ -7,8 +7,8 @@ import logo from '../../assets/Group 2.svg'
 import { Link } from 'react-router-dom';
 const Nav = () => {
     return (
-        <div>
-            <div className="navbar bg-base-100">
+        <div className='bg-white w-full'>
+            <div className="navbar bg-base-100 container mx-auto">
   <div className="navbar-start">
     <div className="lg:hidden">
      

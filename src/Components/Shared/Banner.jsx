@@ -6,7 +6,7 @@ import { FaUserCircle } from "react-icons/fa";
 const Banner = () => {
     return (
         <>
-        <div className="bg-white">
+        <div className="bg-white container mx-auto">
 
             <div className="grid lg:grid-cols-4 gap-3 border p-3 mt-28 lg:mt-5 mb-5 ">
                 <div className="hidden lg:flex flex-col">
@@ -21,7 +21,7 @@ const Banner = () => {
                     <p  className=' p-2 hover:font-semibold hover:bg-blue-200 hover:duration-1000 hover:rounded-lg'><Link>More category</Link></p>
                 </div>
                 <div className="lg:col-span-2 relative">
-                  <img className="w-full " src={banner} alt="" />
+                  <img className="w-full object-cover h-full rounded-md" src={banner} alt="" />
                   <div className="absolute top-5 md:top-10 left-5 md:left-10">
                        <h1 className="text-xl md:text-3xl md:font-medium">Latest trending</h1>
                        <h1 className="text-xl font-bold md:text-5xl md:font-bold">Electronic items</h1>
